@@ -10,6 +10,7 @@ $(document).ready(function(){
             info: $("#sampleInfo").val()
         };
 
+        //THIS REQUEST GOES INTO THE POST ROUTE IN THE ZECH.JS ROUTE MODULE ON THE SERVER SIDE
         $.ajax({
             type: "POST",
             url: "/sampleForZech",
