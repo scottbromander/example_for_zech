@@ -1,0 +1,36 @@
+{
+  "name": "passport_auth",
+  "version": "1.0.0",
+  "description": "Hey Guys, here is the rough outline for getting information about the user in the Passport session. Feel free to pull it all apart, but know that we WILL be going over it in class more.",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "grunt": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.0.12",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottbromander/passport_auth.git"
+  },
+  "author": "Scott Bromander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottbromander/passport_auth/issues"
+  },
+  "homepage": "https://github.com/scottbromander/passport_auth#readme"
+}

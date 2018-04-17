@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Just a template Node / Express App</title>
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="/vendors/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+    
+</head>
+<body>
+    <p>Page Loaded!</p>
+
+    <form action="/" method="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username"/>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password"/>
+        </div>
+        <div>
+            <input type="submit" value="Log In"/>
+            <a href="/register">Register</a>
+        </div>
+    </form>
+
+    <div>
+        <p>Here is a sample Zech</p>
+        <form>
+            <div>
+                <label for="samplename">Sample Name:</label>
+                <input id="sampleName" type="text" name="samplename" id="samplename"/>
+            </div>
+            <div>
+                <label for="sampleinfo">Sample Info:</label>
+                <input id="sampleInfo" type="text" name="sampleinfo" id="sampleinfo"/>
+            </div>
+            <div>
+                <button id="sample-submit">Submit Sample Info</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
